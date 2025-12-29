@@ -4,7 +4,8 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)](https://pytorch.org/)
 [![Linux only](https://img.shields.io/badge/OS-Linux%20Only-yellow.svg?logo=linux)](https://www.linux.org/)
 
-## Official Pytorch Implementation of SeCo
+## Official Pytorch Implementation of Self-supervised Learning for Context Reasoning
+### Xiao Liu, Soumick Sarker, Ankur Sikarwar, Bryan Atista Kiely, Gabriel Krieman, Zenglin Shi, Mengmi Zhang
 
 ![Seco Methodology](images/Fig3-1.png)
 
