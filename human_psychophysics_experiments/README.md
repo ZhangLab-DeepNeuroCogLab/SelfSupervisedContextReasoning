@@ -1,4 +1,4 @@
-# human_psychophysics_experiments (Human Object Priming, HOP)
+# Human Psychophysics Experiments (Human Object Priming, HOP)
 
 This directory contains the **human psychophysics data and code** for the **Human Object Priming (HOP)** experiment.
 
