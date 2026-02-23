@@ -28,7 +28,6 @@ together and how to reproduce the main results end-to-end.
 SeCo-main/
 ├── human_psychophysics_experiments/   # Human Object Priming (HOP) task
 ├── seco/                              # SeCo training & object-priming evaluation
-├── analysis_and_comparative_study/    # Fribble classification: human–model comparisons
 ├── statistical_analysis/              # Statistical tests
 ```
 
