@@ -96,7 +96,7 @@ See `statistical_analysis/README.md` for:
 ### 2.1 Clone the repository
 
 ```bash
-git clone https://github.com/ZhangLab-DeepNeuroCogLab/SelfSupervisedContextReasoning 
+git clone https://github.com/ZhangLab-DeepNeuroCogLab/SelfSupervisedContextReasoning SeCo
 cd SeCo
 ```
 
