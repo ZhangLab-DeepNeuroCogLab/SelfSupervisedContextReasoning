@@ -62,8 +62,6 @@ Alternatively, you can refer to logs for all experiments mentioned above:
   - Ablations: [Ablation Logs](https://drive.google.com/drive/folders/1tqde5Ed6poI8aceC4VkS-fLfX6lZxcBp?usp=sharing)
   - Memory slots and dimensions: [Memory Slots](https://drive.google.com/drive/folders/1sH3EQeeHaKFxriIuqeeOcCtWtU0hbEPT?usp=sharing)
  
-![Ablations](images/ablation_study.png)
-
-![Memory slots and dimensions](images/slots_memory.png)
+![Memory slots and dimensions](images/figureS9.png)
 
 
