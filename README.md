@@ -241,19 +241,15 @@ classification task with controlled context manipulations.
 
 1. **Human data**  
    Psiturk logs for the online fribble experiments live in
-   `analysis_and_comparative_study/expFribble*.db` (final analyses use
+   `statistical_analysis/expFribble*.db` (final analyses use
    `expFribble.db`).
 
 2. **Model results**  
-   Multi-run evaluation logs for SeCo and baseline models should be
-   placed in a directory pointed to by a `root = ...` variable inside
-   the analysis notebooks.
+   Multi-run evaluation logs for SeCo and baseline models can be found in [here](https://drive.google.com/drive/folders/1AMGiKz185ZDMoilXVPLgohjzzhusJW__?usp=sharing)
 
 3. **Analysis notebooks**  
-   In `analysis_and_comparative_study/`, use:
+   In `statistical_analysis/`, use:
 
-   - `retrieve_test_results_bryan.ipynb` to parse human logs and compute
-     per-condition accuracies and confusion matrices,
    - `model_results_plot.ipynb` to aggregate model results and generate
      the main comparison plots,
    - `model_results_plot_per_rule.ipynb` for per-rule breakdowns,
@@ -261,8 +257,6 @@ classification task with controlled context manipulations.
      across context conditions,
    - `seco_variants.ipynb` for ablation analyses of SeCo.
 
-All of these notebooks are documented in detail in
-`analysis_and_comparative_study/README.md`.
 
 ### 3.4 Statistical tests
 
