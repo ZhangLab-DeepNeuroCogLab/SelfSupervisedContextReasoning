@@ -344,4 +344,4 @@ This will let you see the **exact instructions, trial flow, and click interface*
 
 ## 8. Experiment Front End
 
-![frontend](images/FigS1.png)
+![frontend](images/figureS1.png)
