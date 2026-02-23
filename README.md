@@ -73,26 +73,7 @@ See `seco/README.md` for:
   tasks,
 - how to use our pretrained checkpoints instead of training from scratch.
 
-### 1.3 `analysis_and_comparative_study/`
-
-Analysis code and processed data for the **fribble object classification
-task** under different context manipulations.
-
-- Parses Psiturk logs (`expFribble*.db`) from an online fribble experiment,
-- Builds participant-level and condition-level accuracies,
-- Aggregates multi-run model results (SeCo + SSL baselines + supervised),
-- Computes human–model alignment metrics (correlations, regression slopes),
-- Generates the bar plots used in the paper for fribble classification and
-  SeCo variants.
-
-See `analysis_and_comparative_study/README.md` for:
-
-- detailed descriptions of all `.pkl` files,
-- an explanation of the contextual rules and test conditions
-  (“normal”, “jigsaw”, “blur”, “amount”),
-- step-by-step instructions for running each notebook.
-
-### 1.4 `statistical_analysis/`
+### 1.3 `statistical_analysis/`
 
 Jupyter notebooks for the **statistical hypothesis tests** reported in the
 paper, including tests on:
