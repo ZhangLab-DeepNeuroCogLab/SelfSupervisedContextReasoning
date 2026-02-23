@@ -13,7 +13,6 @@ This repository for **SeCo** contains:
 
 - human psychophysics experiment on **Human Object Priming (HOP)**,
 - context-aware self-supervised model (**SeCo**) and baseline models,
-- controlled **fribble object classification** experiments,
 - and the **statistical analyses** 
 
 Each directory has its **own
