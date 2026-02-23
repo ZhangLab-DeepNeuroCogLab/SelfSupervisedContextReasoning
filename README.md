@@ -233,7 +233,7 @@ detailed, experiment-specific checklist.
 
 Details and exact argument lists live in `seco/README.md`.
 
-![Seco Results](images/Fig7_f-1.png)
+![Seco Results](images/figure7.png)
 
 ### 3.3 Fribble object classification: human vs. models
 
