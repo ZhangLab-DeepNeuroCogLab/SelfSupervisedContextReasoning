@@ -7,7 +7,7 @@
 ## Official Pytorch Implementation of Self-supervised Learning for Context Reasoning
 ### Xiao Liu, Soumick Sarker, Ankur Sikarwar, Bryan Atista Kiely, Gabriel Krieman, Zenglin Shi, Mengmi Zhang
 
-![Seco Methodology](images/Fig3-1.png)
+![Seco Methodology](images/figure3.png)
 
 This repository for **SeCo** contains:
 
