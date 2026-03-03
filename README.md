@@ -30,8 +30,6 @@ SeCo-main/
 ├── statistical_analysis/              # Statistical tests
 ```
 
-> Note: this directory was previously named `Human Psychophysics Experiments/`.
-> All paths now use the lowercase, underscore-separated form shown above.
 
 ### 1.1 `human_psychophysics_experiments/`
 
