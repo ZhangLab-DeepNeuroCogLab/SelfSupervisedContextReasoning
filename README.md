@@ -276,3 +276,7 @@ manuscript (e.g., t-tests, ANOVAs, mixed-effects models).
    The README in this directory explains which notebook corresponds to
    which figure / claim, and what each test is checking.
 
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
