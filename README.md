@@ -209,7 +209,7 @@ detailed, experiment-specific checklist.
    This fetches pretrained SeCo checkpoints and auxiliary files (about
    ~10GB). Using these avoids having to re-train the model from scratch.
 
-2. **(Optional) Train SeCo from scratch**  
+2. **Train SeCo from scratch**  
    To reproduce the pre-training phase, run the following commands for different datasets:
 
 - **COCO-OCD**:  ```nohup python main_seco.py -a resnet50 --img_dir /PATH/TO/COCO/IMAGES --anno_dir annotations --epochs 500 -b 256 --dist-url 'tcp://localhost:10012' --resume 'pre-trained_models/imagenet.pth.tar' --save_dir 'checkpoints_ocd' --multiprocessing-distributed --world-size 1 --rank 0 --dataset ocd --mlp 512 --K 200 --memory_dim 512 --workers 16 > train_ocd.log 2>&1 &```
