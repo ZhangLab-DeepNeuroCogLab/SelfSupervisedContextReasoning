@@ -41,6 +41,17 @@ We have provided our pretrained models and trained linear weights for evaluation
 - **VOC Out of Domain**:```nohup python eval_linear_voc07.py --batch_size_per_gpu 256 --anno_dir /PATH/TO/VOC/ANNOTATIONS  --img_val_dir /PATH/TO/VOC/VALSET --test_split_dir /PATH/TO/VOC/TESTSPLIT --arch resnet50 --pretrained_weights pre-trained_models/voc_eps500.pth.tar --linear_weights linear_weights/voc/checkpoint_best.pth.tar --num_labels 20  --gpu 2 > logs/eval_seco_voc_outofdomain.log 2>&1 &```
 - **HOP**: ```nohup python eval_object_priming.py > logs/eval_seco_op.log 2>&1 &```
 
+### Baseline models (lift-the-flap)
+
+Pretrained backbones for the baseline models (DINO, VICReg, SimCLR, SimSiam, ORL,
+Context-Encoder) trained on COCO-OCD and COCO-VOC are provided here:
+- COCO-OCD backbones: [baselines_ocd](PASTE_LINK_AFTER_UPLOAD)
+- COCO-VOC backbones: [baselines_voc](PASTE_LINK_AFTER_UPLOAD)
+
+Trained linear-readout weights for all methods (multi-run) are in the
+[linear_weights](https://drive.google.com/drive/folders/1hTgt301nLcf--YxcDGh76Ij8QiUsDwaI?usp=sharing)
+folder as `baseline_linear_weights_ocd.zip` / `baseline_linear_weights_voc.zip`.
+
 ### Ablation Results
 
 To reproduce all the experiments in ablation study, please run commands in this [shell file](https://drive.google.com/drive/u/2/folders/1hz6u-PH2IleEM3Sh2TW1mkd8qsadJEcg) separately.
