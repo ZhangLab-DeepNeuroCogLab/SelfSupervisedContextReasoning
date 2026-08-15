@@ -52,6 +52,27 @@ Trained linear-readout weights for all methods (multi-run) are in the
 [linear_weights](https://drive.google.com/drive/folders/1hTgt301nLcf--YxcDGh76Ij8QiUsDwaI?usp=sharing)
 folder as `baseline_linear_weights_ocd.zip` / `baseline_linear_weights_voc.zip`.
 
+### Object priming for all models
+
+Priming maps for every model (SeCo and baselines) are generated with the models
+fine-tuned on COCO-OCD from the lift-the-flap task. A self-contained starter kit
+— HOP input images, COCO-OCD pretrained backbones for all baselines (DINO,
+VICReg, SimCLR, SimSiam, ORL, Context-Encoder), trained linear weights for all
+methods, and the generation script — is available here:
+[priming_starter_kit](https://drive.google.com/drive/folders/1Fjlt8Z_tvvmh84j_e28-c-a9Cwy5UCnO?usp=drive_link) (~3.2GB).
+
+Run from the kit root, e.g. for SimSiam at patch size 56:
+
+    python object_priming.py --data_path imgset_atleast_3 --arch resnet50 \
+      --pretrained_weights pretrained_ocd/simsiam.pth.tar \
+      --linear_weights linear_weights_ocd/simsiam/<run>/checkpoint_best.pth.tar \
+      --num_labels 15 --patch_size 56 --method 'simsiam' \
+      --output_dir 'object_priming/simsiam/patchsize56' --drop_threshold 1.0
+
+Repeat for patch sizes 8/14/28/56/112 (`--method 'ours'` for SeCo, `'vicreg'`,
+or any other name for the generic loader, e.g. DINO). See `README_kit.md`
+inside the kit and `object_priming.sh` for the full command set.
+
 ### Ablation Results
 
 To reproduce all the experiments in ablation study, please run commands in this [shell file](https://drive.google.com/drive/u/2/folders/1hz6u-PH2IleEM3Sh2TW1mkd8qsadJEcg) separately.
